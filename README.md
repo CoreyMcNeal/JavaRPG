@@ -1,18 +1,9 @@
-## Getting Started
+## Java RPG (Command Line)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Project is a RPG game manipulated by the command line in order to make changes. Making this project has helped in understanding the underlying concepts of OOP, and how objects interact with each other.
 
-## Folder Structure
+***Future***
+- Armor/Shield system needs to be fleshed out more.
+- Attack values, as well as creature drops and stats need to be fine tuned.
+- More creatures need to be added
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
