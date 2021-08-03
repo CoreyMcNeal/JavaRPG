@@ -6,4 +6,4 @@ Project is a RPG game manipulated by the command line. Making this project has h
 - Armor/Shield system needs to be fleshed out more.
 - Attack values, as well as creature drops and stats need to be fine tuned.
 - More creatures need to be added
-
+- Can make use of class inheritance for the weapons and armor.
