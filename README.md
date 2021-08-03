@@ -1,6 +1,6 @@
 ## Java RPG (Command Line)
 
-Project is a RPG game manipulated by the command line in order to make changes. Making this project has helped in understanding the underlying concepts of OOP, and how objects interact with each other.
+Project is a RPG game manipulated by the command line. Making this project has helped in understanding the underlying concepts of OOP, and how objects interact with each other.
 
 ***Future***
 - Armor/Shield system needs to be fleshed out more.
