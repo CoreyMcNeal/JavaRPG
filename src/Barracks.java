@@ -15,7 +15,8 @@ public class Barracks {
         while (true) {
             System.out.println("1 - Change Armor\n" + 
                                 "2 - Change Weapon\n" + 
-                                "3 - Remove from inventory\n");
+                                "3 - Remove from inventory\n" +
+                                "0 - Return to Town");
             int choice;
             try {
                 choice = Integer.valueOf(reader.nextLine());
@@ -35,9 +36,11 @@ public class Barracks {
                 equipWeapon();
             } else if (choice == 3) {
                 removeItem();
+            } else if (choice == 0) {
+                break;
             }
-            
         }
+        
         
     }   
 
@@ -178,6 +181,14 @@ public class Barracks {
                 reader.nextLine();
                 return;
             }
+
+            if (this.player.getArmor().getName().equals(itemName) && howManyOfItem(player, itemName) == 1) {
+                System.out.println("Cant remove item, it is equipped");
+                reader.nextLine();
+                return;
+            }
+
+
 
             for (Item item: this.player.getInventory().keySet()) {
                 if (item.getName().equals(itemName)) {

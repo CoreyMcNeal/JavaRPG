@@ -17,7 +17,7 @@ public class Character {
 
 
 
-    public Character(String name, Item weapon) {      // constructor which includes base information for the player, and relevant levels
+    public Character(String name, Weapon weapon) {      // constructor which includes base information for the player, and relevant levels
         this.name = name;
         this.level = 3;
         this.weapon = weapon;

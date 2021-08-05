@@ -85,18 +85,15 @@ public class UserInterface {
                 continue;
             }
 
-            Item weapon;
+            Weapon weapon;
             if (style.equals("Melee")) {
-                weapon = new Item("Bronze Sword", "Melee");
-                weapon.makeIntoWeapon(3, 1);                    /* converting to "weapons" since a default Item object
-                                                                does not have the needed attributes */
+                weapon = new Weapon("Bronze Sword", "Melee", 3, 1);
+                                                                
             } else if (style.equals("Magic")) {
-                weapon = new Item("Wind Staff", "Magic");
-                weapon.makeIntoWeapon(3, 1);
+                weapon = new Weapon("Wind Staff", "Magic", 3 ,1);
 
             } else if (style.equals("Archery")) {
-                weapon = new Item("Shortbow", "Archery");
-                weapon.makeIntoWeapon(3, 1);
+                weapon = new Weapon("Shortbow", "Archery", 3 , 1);
 
             } else {
                 continue;

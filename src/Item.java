@@ -12,20 +12,6 @@ public class Item {
         this.type = type;
     }
 
-    public void makeIntoWeapon(int attackBonus, int levelRequirement) { // makes the item into a weapon (adds weapon traits)
-        this.isWeapon = true;
-        this.attackBonus = attackBonus;
-        this.levelRequirement = levelRequirement;
-    }
-
-    public Item makeIntoArmor(int defenseBonus, int levelRequirement) { // makes the item into armor (adds armor traits)
-        this.isArmor = true;
-        this.defenseBonus = defenseBonus;
-        this.levelRequirement = levelRequirement;
-        return this;
-    }
-
-
     public boolean equals(Object o) {
         if (o == this)
             return true;

@@ -6,8 +6,8 @@ public class CreaturesDropTable {           // Class to house the drop tables fo
         HashMap <Item,Integer> dropTable = creature.getMonsterDroptable();
         
         dropTable.put(new Item("Bones", "Item"), 1);
-        dropTable.put(new Item("Iron Sword", "Melee"), 1);
-        dropTable.put(new Item("Bronze Shield", "Shield").makeIntoArmor(3, 1), 1);
+        dropTable.put(new Weapon("Iron Sword", "Melee", 3, 1), 1);
+        dropTable.put(new Armor("Bronze Shield", "Shield", 3, 1), 1);
  
         return dropTable;
     }    
