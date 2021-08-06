@@ -4,8 +4,6 @@ public class Item {
     private int defenseBonus;
     private int levelRequirement;
     private String type;
-    private boolean isWeapon;
-    private boolean isArmor;
 
     public Item (String name, String type) {
         this.name = name;
@@ -39,22 +37,6 @@ public class Item {
 
     public void setDefenseBonus(int defenseBonus) {
         this.defenseBonus = defenseBonus;
-    }
-
-    public boolean getIsWeapon() {
-        return this.isWeapon;
-    }
-
-    public void setIsWeapon(boolean isWeapon) {
-        this.isWeapon = isWeapon;
-    }
-
-    public boolean getIsArmor() {
-        return this.isArmor;
-    }
-
-    public void setIsArmor(boolean isArmor) {
-        this.isArmor = isArmor;
     }
 
     public String getName() {
